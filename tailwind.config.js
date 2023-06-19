@@ -9,9 +9,8 @@ module.exports = {
     extend: {
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
-        'cloudy': './public/alex-machado-80sv993lUKI-unsplash.jpg'
+        'gradient-conic': 'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+        'cloudy': 'url(../public/alex-machado-80sv993lUKI-unsplash.jpg)'
       },
       backgroundColor: {
         'primary-blue': '#053152',
@@ -22,6 +21,10 @@ module.exports = {
       },
       borderColor: {
         'blue-light': '#90B0C8'
+      },
+      colors: {
+        'gradient1': '#292992',
+        'gradient2': '#4cfff4',
       }
     },
   },

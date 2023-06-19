@@ -19,7 +19,7 @@ export default function RootLayout({ children }) {
       <UnitsContextProvider>
         <html lang="en" className='relative min-h-full'>
           <body className={roboto.className + " bg-blue-100 flex justify-center"}>
-            <div className='w-full flex flex-col items-center'>
+            <div className='w-full flex flex-col items-center bg-gradient-to-b from-gradient1  to-gradient2'>
               <Header />
               {children}
               <Footer />
